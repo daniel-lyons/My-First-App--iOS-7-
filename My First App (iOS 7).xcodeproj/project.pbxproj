@@ -21,6 +21,7 @@
 		809A27E3180A71900037D734 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 809A27C5180A718F0037D734 /* UIKit.framework */; };
 		809A27EB180A71900037D734 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 809A27E9180A71900037D734 /* InfoPlist.strings */; };
 		809A27ED180A71900037D734 /* My_First_App__iOS_7_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 809A27EC180A71900037D734 /* My_First_App__iOS_7_Tests.m */; };
+		80B5DAC7180AB7AE005FBB23 /* DLBlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B5DAC6180AB7AE005FBB23 /* DLBlueViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		809A27E8180A71900037D734 /* My First App (iOS 7)Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "My First App (iOS 7)Tests-Info.plist"; sourceTree = "<group>"; };
 		809A27EA180A71900037D734 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		809A27EC180A71900037D734 /* My_First_App__iOS_7_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_First_App__iOS_7_Tests.m; sourceTree = "<group>"; };
+		80B5DAC5180AB7AE005FBB23 /* DLBlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLBlueViewController.h; sourceTree = "<group>"; };
+		80B5DAC6180AB7AE005FBB23 /* DLBlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLBlueViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,7 @@
 		809A27B5180A718F0037D734 = {
 			isa = PBXGroup;
 			children = (
+				809A27D3180A71900037D734 /* Main.storyboard */,
 				809A27C7180A718F0037D734 /* My First App (iOS 7) */,
 				809A27E6180A71900037D734 /* My First App (iOS 7)Tests */,
 				809A27C0180A718F0037D734 /* Frameworks */,
@@ -114,9 +118,10 @@
 			children = (
 				809A27D0180A718F0037D734 /* DLAppDelegate.h */,
 				809A27D1180A718F0037D734 /* DLAppDelegate.m */,
-				809A27D3180A71900037D734 /* Main.storyboard */,
 				809A27D6180A71900037D734 /* DLViewController.h */,
 				809A27D7180A71900037D734 /* DLViewController.m */,
+				80B5DAC5180AB7AE005FBB23 /* DLBlueViewController.h */,
+				80B5DAC6180AB7AE005FBB23 /* DLBlueViewController.m */,
 				809A27D9180A71900037D734 /* Images.xcassets */,
 				809A27C8180A718F0037D734 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80B5DAC7180AB7AE005FBB23 /* DLBlueViewController.m in Sources */,
 				809A27D2180A718F0037D734 /* DLAppDelegate.m in Sources */,
 				809A27D8180A71900037D734 /* DLViewController.m in Sources */,
 				809A27CE180A718F0037D734 /* main.m in Sources */,
@@ -289,6 +295,7 @@
 				809A27D4180A71900037D734 /* Base */,
 			);
 			name = Main.storyboard;
+			path = "My First App (iOS 7)";
 			sourceTree = "<group>";
 		};
 		809A27E9180A71900037D734 /* InfoPlist.strings */ = {
@@ -463,6 +470,7 @@
 				809A27F2180A71900037D734 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		809A27F3180A71900037D734 /* Build configuration list for PBXNativeTarget "My First App (iOS 7)Tests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +479,7 @@
 				809A27F5180A71900037D734 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

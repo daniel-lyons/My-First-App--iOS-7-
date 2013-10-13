@@ -24,12 +24,18 @@
     
     helloLabel.text = @"Hello World!";
     //insert method to tell Label to say Hello
+};//sayHello
+
+-(IBAction)sayLabel:(id)sender
+{
+    helloLabel.text = @"Label";
 };
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.title = @"Green View";
     NSLog(@"In view did load.");
 }
 

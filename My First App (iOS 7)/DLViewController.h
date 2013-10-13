@@ -15,4 +15,6 @@
 
 -(IBAction)sayHello:(id)sender;
 
+-(IBAction)sayLabel:(id)sender;
+
 @end
