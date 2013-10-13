@@ -10,4 +10,9 @@
 
 @interface DLViewController : UIViewController
 
+@property (nonatomic, retain) IBOutlet UILabel *helloLabel;
+
+
+-(IBAction)sayHello:(id)sender;
+
 @end

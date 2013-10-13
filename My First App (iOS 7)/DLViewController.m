@@ -10,9 +10,21 @@
 
 @interface DLViewController ()
 
-@end
+@end //DLViewController
+
+
 
 @implementation DLViewController
+
+@synthesize helloLabel;
+
+
+-(IBAction)sayHello:(id)sender
+{
+    
+    helloLabel.text = @"Hello World!";
+    //insert method to tell Label to say Hello
+};
 
 - (void)viewDidLoad
 {
